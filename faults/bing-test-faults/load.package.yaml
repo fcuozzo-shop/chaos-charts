@@ -1,6 +1,0 @@
----
-packageName: load-clone
-experiments:
-  - name: k6-loadgen-clone-clone
-    CSV: k6-loadgen-clone.chartserviceversion.yaml
-    desc: "k6-loadgen-clone-clone"

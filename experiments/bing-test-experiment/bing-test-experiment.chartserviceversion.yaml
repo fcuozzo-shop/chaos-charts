@@ -1,0 +1,24 @@
+---
+apiVersion: litmuschaos.io/v1alpha1
+kind: ChartServiceVersion
+metadata:
+  name: bing-test-experiment
+  version: 0.1.0
+spec:
+  displayName: Bing Test Experiment
+  categoryDescription: >
+    Injects pod network loss chaos in the bank of anthos application
+  faults:
+    - name: pod-network-loss
+      description: Injects network packet loss on pods belonging to an app deployment
+  keywords:
+    - Kubernetes
+  platforms:
+    - GKE
+    - Minikube
+    - Packet(Kubeadm)
+    - EKS
+    - AKS
+  icon:
+    - url:
+      mediatype: "" 
