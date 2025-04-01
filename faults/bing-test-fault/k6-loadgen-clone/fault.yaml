@@ -5,7 +5,7 @@ description:
     Execute the k6 engine using the JS script
 kind: ChaosExperiment
 metadata:
-  name: k6-loadgen
+  name: k6-loadgen-clone
   labels:
     name: k6-loadgen
     app.kubernetes.io/part-of: litmus
@@ -89,8 +89,7 @@ spec:
         value: "Always"
 
     labels:
-      name: k6-loadgen
+      name: k6-loadgen-clone
       app.kubernetes.io/part-of: litmus
       app.kubernetes.io/component: experiment-job
       app.kubernetes.io/version: ci
----
