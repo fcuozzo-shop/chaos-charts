@@ -13,7 +13,7 @@ spec:
   categoryDescription: >
     Load chaos contains different chaos experiments to test the app/platform service availability. It will install all the experiments which can be used to inject load into the services like VMs, Pods and so on.
   faults:
-    - name: k6-loadgen-clone
+    - name: k6-loadgen-clone-clone
       description: It injects the load on the application using k6 load generator
       displayName: "k6 Load Generator"
   keywords:

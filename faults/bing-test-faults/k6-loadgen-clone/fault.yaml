@@ -56,7 +56,7 @@ spec:
     imagePullPolicy: Always
     args:
       - -c
-      - ./experiments -name k6-loadgen
+      - ./experiments -name k6-loadgen-clone
     command:
       - /bin/bash
     env:
@@ -89,7 +89,7 @@ spec:
         value: "Always"
 
     labels:
-      name: k6-loadgen
+      name: k6-loadgen-clone
       app.kubernetes.io/part-of: litmus
       app.kubernetes.io/component: experiment-job
       app.kubernetes.io/version: ci
