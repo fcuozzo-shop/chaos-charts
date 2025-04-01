@@ -28,5 +28,5 @@ spec:
     - name: k6 Website
       url: https://k6.io/
   icon:
-    - url: https://github.com/litmuschaos/chaos-charts/blob/master/faults/bing-test-fault/icons/doge.png
+    - url: https://github.com/litmuschaos/chaos-charts/blob/master/faults/bing-test-fault/icons/doge2.png
       mediatype: image/png

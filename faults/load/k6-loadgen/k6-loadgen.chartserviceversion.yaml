@@ -9,7 +9,7 @@ metadata:
     categories: Load
     vendor: LitmusChaos
 spec:
-  displayName: k6 Load Generator
+  displayName: k6 Load Generator Clone
   categoryDescription: |
      k6 is an open-source load testing tool that makes performance testing easy and productive for engineering teams. You can easily run load testing through a single JS script. It's a modern alternative to LoadRunner, Grinder, and JMeter.
   keywords:

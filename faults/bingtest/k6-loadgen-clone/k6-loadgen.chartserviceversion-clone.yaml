@@ -2,8 +2,8 @@
 apiVersion: litmuschaos.io/v1alpha1
 kind: ChartServiceVersion
 metadata:
-  createdAt: 2024-02-10T01:00:00Z
-  name: k6-loadgen
+  createdAt: 2024-03-10T01:00:00Z
+  name: k6-loadgen-clone
   version: 0.1.0
   annotations:
     categories: Test
