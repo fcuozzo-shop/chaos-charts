@@ -7,7 +7,7 @@ kind: ChaosExperiment
 metadata:
   name: k6-loadgen-clone
   labels:
-    name: k6-loadgen
+    name: k6-loadgen-clone
     app.kubernetes.io/part-of: litmus
     app.kubernetes.io/component: chaosexperiment
     app.kubernetes.io/version: ci

@@ -5,19 +5,19 @@ metadata:
   name: load
   version: 0.1.0
   annotations:
-    categories: Load
+    categories: Test
     chartDescription: Injects load on the application
     executionPlane: "kubernetes"
 spec:
-  displayName: Load
+  displayName: Test
   categoryDescription: >
     Load chaos contains different chaos experiments to test the app/platform service availability. It will install all the experiments which can be used to inject load into the services like VMs, Pods and so on.
   faults:
-    - name: k6-loadgen
+    - name: k6-loadgen-clone
       description: It injects the load on the application using k6 load generator
       displayName: "k6 Load Generator"
   keywords:
-    - Load
+    - Test
   maintainers:
     - name: Namkyu Park
       email: lak9348@gmail.com

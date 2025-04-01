@@ -6,7 +6,7 @@ metadata:
   name: k6-loadgen
   version: 0.1.0
   annotations:
-    categories: Load
+    categories: Test
     vendor: LitmusChaos
 spec:
   displayName: k6 Load Generator
